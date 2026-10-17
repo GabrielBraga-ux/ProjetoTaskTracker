@@ -1,0 +1,7 @@
+# TaskTracker Acadêmico - dependências do projeto
+# Requisito para executar: Python 3 instalado no computador.
+# No Windows, execute o projeto pelo PowerShell, dentro da pasta tasktracker-projeto.
+# Comando de execução: python src/main.py
+# O programa usa apenas recursos nativos do Python.
+# Não há bibliotecas externas para instalar com pip.
+# O Python é instalado separadamente e não deve ser listado como pacote aqui.
