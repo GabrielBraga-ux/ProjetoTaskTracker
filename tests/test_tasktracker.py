@@ -24,7 +24,7 @@ class TaskTrackerTests(unittest.TestCase):
     def test_prioridade_valida_e_normaliza(self):
         for entrada, esperada in [("Alta", "Alta"), ("Média", "Média"),
                                   ("Media", "Média"), ("Baixa", "Baixa")]:
-            with self.subTest(entrada=entrada), \                    patch("builtins.input", return_value=entrada):
+            with self.subTest(entrada=entrada), patch("builtins.input", return_value=entrada):
                 self.assertEqual(app.ler_prioridade(), esperada)
 
     def test_prioridade_recusa_outros_valores(self):
